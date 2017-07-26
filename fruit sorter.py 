@@ -1,0 +1,15 @@
+fruit = input('enter your fruit')
+bin_one=0
+bin_two=0
+bin_three=0 
+if fruit=='apple':
+    bin_one=bin_one+1
+
+if fruit=='oranges' :
+    bin_two=bin_two+1 
+
+if fruit=='olives':
+    bin_three=bin_three+1
+print(bin_one)
+print(bin_two)
+print(bin_three)
